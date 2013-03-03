@@ -2,6 +2,10 @@ Piece of Cake - Simple Cakefile for CoffeeScript and Stylus compilation
 =============
 
 Very simple cake file for development. Auto-compiles and watches server-side Coffeescript files. Auto-compiles Stylus files. Runs main script using Supervisor. This is used in https://github.com/NullEmpire/coffeescript-express. Which is a coffeescript / express bootstrap.
+## Requirements
+* `sudo npm install -g stylus`
+* `sudo npm install -g supervisor`
+* `sudo npm install -g coffee-script`
 
 ```coffeescript
 fs = require 'fs'
